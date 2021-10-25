@@ -1,0 +1,434 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+  /* height: 40000px; */
+}
+
+.navbar {
+  position: sticky;
+  top: 0px;
+  display: flex;
+  /* border: 2px solid tan; */
+  border-bottom: 1px dashed rgb(212, 191, 191);
+  background-color: black;
+  padding-bottom: 4px;
+}
+.ise_heading {
+  color: rgb(221, 158, 41);
+  text-align: center;
+  /* border: 2px solid red; */
+  font-size: 40px;
+
+  /* font-family: "Itim", cursive; */
+  font-family: "ZCOOL XiaoWei", serif;
+  /* margin-left:0px; */
+  margin-top: 26px;
+  margin-bottom: 23px;
+  /* border-bottom: 1px dashed rgb(212, 191, 191); */
+  /* border-right: 1px dashed rgb(212, 191, 191); */
+}
+.logo_ise {
+  /* border: 2px solid yellow; */
+  width: 30%;
+}
+.logo_ise img {
+  width: 102px;
+  height: 80px;
+  /* border: 5px solid blue; */
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-top: 12px;
+  border: 1px dashed rgb(221, 158, 41);
+}
+.container {
+  display: flex;
+
+  /* height: 600px; */
+  /* border: 2px solid red; */
+}
+.introduction {
+  display: flex;
+  padding: 30px;
+  padding-left: 40px;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* border: 2px solid red; */
+  width: 100%;
+  /* color: white; */
+  /* background-color: #f4ece6; */
+  color: white;
+}
+/* font-family: "ZCOOL XiaoWei", serif; */
+/* font-family: "Cookie", cursive; */
+/* font-family: "Aclonica", sans-serif; */
+.intro_heading {
+  /* border: 2px solid red; */
+  /* font-size: 45px; */
+  font-size: 25px;
+  padding: 10px;
+  padding-left: 10px;
+  padding-bottom: 0px;
+  /* font-family: "ZCOOL XiaoWei", serif; */
+  font-family: "ZCOOL XiaoWei", serif;
+  margin-top: 30px;
+  color: #9f9b67;
+}
+.academic_note_intro {
+  /* border: 2px solid wheat; */
+  margin-top: 4px;
+  /* font-family: "ZCOOL XiaoWei", serif; */
+  font-family: "Padauk", sans-serif;
+  padding: 10px;
+  padding-top: 6px;
+  color: #a9967d;
+}
+.know_more_dept {
+  padding: 4px;
+  border: 1px dashed;
+  background-color: rgb(221, 158, 41);
+  margin-top: 6px;
+  cursor: pointer;
+  margin-left: 12px;
+  /* width: 100px;
+  height: 37px; */
+  font-size: 15px;
+  margin-bottom: 11px;
+}
+.know_more_dept:hover {
+  background-color: black;
+  color: rgb(221, 158, 41);
+}
+.contact_me_for_website {
+  font-size: 25px;
+  padding: 10px;
+  padding-left: 10px;
+  font-family: "ZCOOL XiaoWei", serif;
+  margin-top: 30px;
+  padding-bottom: 2px;
+  color: #9f9b67;
+}
+.visit_me {
+  margin-top: 6px;
+  width: 85.88px;
+  height: 27.6px;
+  margin-left: 13px;
+}
+.intro_contact_me_for_website {
+  margin-top: 4px;
+  /* font-family: "ZCOOL XiaoWei", serif; */
+  font-family: "Padauk", sans-serif;
+  padding: 10px;
+  padding-right: 50px;
+  color: #a9967d;
+}
+.about_me {
+  font-size: 25px;
+  padding: 10px;
+  padding-left: 10px;
+  font-family: "ZCOOL XiaoWei", serif;
+  margin-top: 20px;
+  padding-bottom: 2px;
+  color: #9f9b67;
+}
+.about_me_intr {
+  margin-top: 4px;
+  /* font-family: "ZCOOL XiaoWei", serif; */
+  font-family: "Padauk", sans-serif;
+  padding: 10px;
+  padding-top: 6px;
+  color: #a9967d;
+}
+
+.border_sec {
+  border: 1px dashed rgb(109, 104, 104);
+  margin: 4px;
+}
+.margin_zero {
+  margin-left: 2px;
+}
+.form_year_selection {
+  /* border: 2px solid yellow; */
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: white; */
+  /* background-color: #e6dace; */
+}
+
+.form_head {
+  font-family: "Aclonica", sans-serif;
+  font-size: 24px;
+  text-align: center;
+  margin-top: 22px;
+  border-bottom: 2px dashed rgb(228, 169, 61);
+  /* background: burlywood; */
+  /* background-color: black; */
+  padding-bottom: 5px;
+  padding-top: 5px;
+  color: #5a643e;
+  color: rgb(126 90 45);
+}
+#form {
+  /* background-color: rgb(228, 169, 61); */
+  /* background-color: rgb(138 127 108); */
+  /* background-color: burlywood; */
+  background-color: black;
+  /* background-color: white; */
+  border: 2px dashed #4c4c4c;
+  border-radius: 10px;
+  width: 400px;
+  padding: 10px;
+  height: 383px;
+  color: white;
+  /* text-align: center; */
+  position: relative;
+}
+
+.years {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  font-family: "ZCOOL XiaoWei", serif;
+  font-size: 16px;
+}
+#submit {
+  width: 21%;
+  height: 33px;
+
+  cursor: pointer;
+  padding: 4px;
+  font-size: 15px;
+  border-radius: 7px;
+  background-color: black;
+  background-color: rgb(33 31 46);
+  color: white;
+  border: 1px dashed #c2a32d;
+}
+#submit:hover {
+  background-color: black;
+  color: rgb(221, 158, 41);
+}
+.submit_botton {
+  text-align: center;
+  margin-top: 10px;
+}
+.yr {
+  display: none;
+}
+
+.checkbox_box {
+  width: 1.01em;
+  height: 1.01em;
+  border: 1px solid;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+  margin-left: 60px;
+}
+
+.yr:checked + .checkbox_box::after {
+  content: "\2714";
+  color: white;
+}
+
+.yr:checked + .checkbox_box {
+  background: #2266dc;
+  /* background: rgb(221, 158, 41); */
+}
+.first {
+  margin: 20px;
+  border: 1px dashed;
+  background-color: black;
+  color: rgb(221, 158, 41);
+  padding-top: 4px;
+  padding-bottom: 4px;
+  /* padding: 4pxs; */
+  color: rgb(134 143 59);
+}
+.first:hover {
+  border-radius: 4px;
+  background-color: rgb(221, 158, 41);
+  color: black;
+}
+.margin_top_first {
+  margin-top: 49px;
+}
+.error {
+  display: flex;
+  opacity: 0;
+}
+.output_incorrect {
+  position: absolute;
+  left: 70px;
+  /* top: 1px; */
+  color: rgb(255, 4, 4);
+}
+.err_msg {
+  position: absolute;
+  left: 95px;
+  color: rgb(255, 4, 4);
+}
+
+/**
+*  !MEdia Query
+
+**/
+@media only screen and (min-width: 0px) and (max-width: 1000px) {
+  .logo_ise {
+    width: 25%;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 950px) {
+  .logo_ise {
+    width: 20%;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 780px) {
+  .logo_ise {
+    width: 17%;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 750px) {
+  .logo_ise {
+    width: 20%;
+  }
+  .ise_heading {
+    font-size: 35px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 680px) {
+  .logo_ise {
+    width: 20%;
+  }
+  .ise_heading {
+    font-size: 30px;
+  }
+  .logo_ise img {
+    width: 90px;
+    height: 70px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 570px) {
+  .logo_ise {
+    width: 20%;
+  }
+  .ise_heading {
+    font-size: 28px;
+  }
+  .logo_ise img {
+    width: 80px;
+    height: 65px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 525px) {
+  .logo_ise {
+    width: 20%;
+  }
+  .ise_heading {
+    font-size: 25px;
+  }
+  .logo_ise img {
+    width: 70px;
+    height: 60px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 468px) {
+  .logo_ise {
+    width: 15%;
+  }
+  .ise_heading {
+    font-size: 23px;
+    margin-top: 20px;
+  }
+  .logo_ise img {
+    width: 50px;
+    height: 45px;
+  }
+  .navbar {
+    height: 70px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 405px) {
+  .ise_heading {
+    font-size: 20px;
+  }
+  .logo_ise img {
+    width: 40px;
+    height: 40px;
+  }
+  .navbar {
+    height: 60px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 359px) {
+  .logo_ise {
+    width: 40%;
+  }
+  .ise_heading {
+    margin-top: 18px;
+    font-size: 38px;
+  }
+  .navbar {
+    height: 80px;
+  }
+
+  .logo_ise img {
+    width: 67px;
+    height: 58px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 1000px) {
+  .container {
+    flex-direction: column;
+  }
+
+  #form {
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 468px) {
+  .intro_contact_me_for_website {
+    padding-right: 10px;
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 405px) {
+  #form {
+    width: 300px;
+    height: 392px;
+  }
+  .form_head {
+    font-size: 20px;
+  }
+  .years {
+    font-size: 14px;
+  }
+  .checkbox_box {
+    margin-left: 50px;
+  }
+  .err_msg {
+    font-size: 14px;
+    left: 60px;
+  }
+  .output_incorrect {
+    left: 35px;
+  }
+  .margin_top_first {
+    margin-top: 32px;
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 359px) {
+  .introduction {
+    padding-left: 30px;
+  }
+}
