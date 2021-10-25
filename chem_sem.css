@@ -1,0 +1,225 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+  /* height: 100%; */
+}
+.navbar {
+  position: sticky;
+  top: 0px;
+  display: flex;
+  /* border: 2px solid tan; */
+  border-bottom: 1px dashed rgb(212, 191, 191);
+  background-color: black;
+  padding-bottom: 4px;
+}
+.ise_heading {
+  color: rgb(221, 158, 41);
+  text-align: center;
+  /* border: 2px solid red; */
+  font-size: 40px;
+
+  /* font-family: "Itim", cursive; */
+  font-family: "ZCOOL XiaoWei", serif;
+  /* margin-left:0px; */
+  margin-top: 26px;
+  margin-bottom: 23px;
+  /* border-bottom: 1px dashed rgb(212, 191, 191); */
+  /* border-right: 1px dashed rgb(212, 191, 191); */
+}
+.logo_ise {
+  /* border: 2px solid yellow; */
+  width: 30%;
+}
+.logo_ise img {
+  width: 102px;
+  height: 80px;
+  /* border: 5px solid blue; */
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-top: 12px;
+  border: 1px dashed rgb(221, 158, 41);
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 623px;
+  /* border: 2px solid red; */
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  /* background-color: rgb(24, 20, 20); */
+  align-items: center;
+  /* border: 2px solid red; */
+  border-radius: 10px;
+  box-shadow: 0px -1px 13px 5px rgb(70 72 85);
+
+  background-color: black;
+  border: 1px dashed grey;
+}
+/* .phy_sem_subjects {
+  } */
+.subject {
+  padding: 15px;
+  border: 1px solid grey;
+  border-radius: 4px;
+  font-size: 20px;
+  margin: 4px;
+  color: white;
+  background-color: black;
+  text-align: center;
+}
+.sub_name {
+  margin-top: 10px;
+  color: #a9967d;
+}
+.subject:hover {
+  background-color: #e6e4e4;
+  color: black;
+  cursor: pointer;
+}
+.subject:hover .sub_name {
+  color: black;
+}
+.phy_sem_logo img {
+  width: 102px;
+  height: 80px;
+  object-fit: cover;
+  border: 1px dashed rgb(221, 158, 41);
+}
+
+.container a {
+  text-decoration: none;
+}
+/**
+*  !MEdia Query
+
+**/
+@media only screen and (min-width: 0px) and (max-width: 1000px) {
+  .logo_ise {
+    width: 25%;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 950px) {
+  .logo_ise {
+    width: 20%;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 780px) {
+  .logo_ise {
+    width: 17%;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 750px) {
+  .logo_ise {
+    width: 20%;
+  }
+  .ise_heading {
+    font-size: 35px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 680px) {
+  .logo_ise {
+    width: 20%;
+  }
+  .ise_heading {
+    font-size: 30px;
+  }
+  .logo_ise img {
+    width: 90px;
+    height: 70px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 570px) {
+  .logo_ise {
+    width: 20%;
+  }
+  .ise_heading {
+    font-size: 28px;
+  }
+  .logo_ise img {
+    width: 80px;
+    height: 65px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 525px) {
+  .logo_ise {
+    width: 20%;
+  }
+  .ise_heading {
+    font-size: 25px;
+  }
+  .logo_ise img {
+    width: 70px;
+    height: 60px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 468px) {
+  .logo_ise {
+    width: 15%;
+  }
+  .ise_heading {
+    font-size: 23px;
+    margin-top: 20px;
+  }
+  .logo_ise img {
+    width: 50px;
+    height: 45px;
+  }
+  .navbar {
+    height: 70px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 405px) {
+  .ise_heading {
+    font-size: 20px;
+  }
+  .logo_ise img {
+    width: 40px;
+    height: 40px;
+  }
+  .navbar {
+    height: 60px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 359px) {
+  .logo_ise {
+    width: 40%;
+  }
+  .ise_heading {
+    margin-top: 18px;
+    font-size: 38px;
+  }
+  .navbar {
+    height: 80px;
+  }
+
+  .logo_ise img {
+    width: 67px;
+    height: 58px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 754px) {
+  .container {
+    grid-template-columns: repeat(2, 1fr);
+    /* grid-template-rows: repeat(2, 1fr); */
+  }
+  .center {
+    height: 800px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 400px) {
+  .container {
+    grid-template-columns: repeat(1, 1fr);
+    /* grid-template-rows: repeat(2, 1fr); */
+  }
+  .center {
+    height: 1400px;
+  }
+}
