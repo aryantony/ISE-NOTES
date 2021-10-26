@@ -122,3 +122,11 @@ document.querySelector("#km").addEventListener("click", (e) => {
   e.preventDefault();
   window.open("know.html");
 });
+document.querySelector("#click_mail").addEventListener("click", (e) => {
+  e.preventDefault();
+  window.open("mailto:aryanroy3865@gmai.com");
+});
+document.querySelector("#click_visit").addEventListener("click", (e) => {
+  e.preventDefault();
+  window.open("https://roy-com.github.io/Portfolio");
+});
