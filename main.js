@@ -118,3 +118,7 @@ function myfun(x) {
     document.querySelector(".ise_heading").innerHTML = "ISE";
   }
 }
+document.querySelector("#km").addEventListener("click", (e) => {
+  e.preventDefault();
+  window.open("know.html");
+});
