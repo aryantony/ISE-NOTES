@@ -195,3 +195,23 @@ body {
     height: 58px;
   }
 }
+@media only screen and (min-width: 0px) and (max-width: 408px) {
+  .faqscol {
+    font-size: 22px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 385px) {
+  .faqscol {
+    font-size: 20px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 361px) {
+  .faqscol {
+    font-size: 18px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 337px) {
+  .faqscol {
+    font-size: 16px;
+  }
+}
