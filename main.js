@@ -20,15 +20,15 @@ select_submit_botton.addEventListener("click", (e) => {
           window.open("first_yr.html");
         } else if (i == 1) {
           window.open(
-            "https://drive.google.com/drive/u/0/folders/1m_kSQPNGLNAWpCkw8hdGlZq_LVjfR3XW"
+            "https://drive.google.com/drive/folders/1h6iBmpMKWTAajgmLiZb65_H7_t7lwxiX?usp=sharing"
           );
         } else if (i == 2) {
           window.open(
-            "https://drive.google.com/drive/u/0/folders/11bgs4NNuVB0mHvmfKXiq7l-4QPrN0OtY"
+            "https://drive.google.com/drive/folders/1tDEHr1E_Zq_to_akebG248jr3iDAbAlw?usp=sharing"
           );
         } else {
           window.open(
-            "https://drive.google.com/drive/u/0/folders/1FGCO-8GUurZiXqFTeAlvIvu6gbifXX97"
+            "https://drive.google.com/drive/folders/1-WFNgMk2UecjH066fd06EFZgTeBsp_k-?usp=sharing"
           );
         }
         input_checkbox[i].checked = false;
