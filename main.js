@@ -17,19 +17,18 @@ select_submit_botton.addEventListener("click", (e) => {
     for (let i = 0; i < input_checkbox.length; i++) {
       if (input_checkbox[i].checked) {
         if (i == 0) {
-          window.open("first_yr.html");
+          localStorage.setItem("year", i);
+
+          window.open("login.html");
         } else if (i == 1) {
-          window.open(
-            "https://drive.google.com/drive/folders/1h6iBmpMKWTAajgmLiZb65_H7_t7lwxiX?usp=sharing"
-          );
+          localStorage.setItem("year", i);
+          window.open("login.html");
         } else if (i == 2) {
-          window.open(
-            "https://drive.google.com/drive/folders/1tDEHr1E_Zq_to_akebG248jr3iDAbAlw?usp=sharing"
-          );
+          localStorage.setItem("year", i);
+          window.open("login.html");
         } else {
-          window.open(
-            "https://drive.google.com/drive/folders/1-WFNgMk2UecjH066fd06EFZgTeBsp_k-?usp=sharing"
-          );
+          localStorage.setItem("year", i);
+          window.open("login.html");
         }
         input_checkbox[i].checked = false;
         document.querySelector("#b").style.background = "none";
@@ -118,6 +117,7 @@ function myfun(x) {
     document.querySelector(".ise_heading").innerHTML = "ISE";
   }
 }
+
 document.querySelector("#km").addEventListener("click", (e) => {
   e.preventDefault();
   window.open("know.html");
