@@ -842,7 +842,7 @@ body::before {
     font-size: 15px;
   }
   .name_of_form {
-    font-size: 20px;
+    font-size: 17px;
   }
   .contac_me {
     font-size: 28px;
@@ -853,7 +853,7 @@ body::before {
 }
 @media only screen and (min-width: 0px) and (max-width: 342px) {
   .name_of_form {
-    font-size: 19px;
+    font-size: 17px;
   }
   .contac_me {
     font-size: 27px;
@@ -861,7 +861,7 @@ body::before {
 }
 @media only screen and (min-width: 0px) and (max-width: 331px) {
   .name_of_form {
-    font-size: 18px;
+    font-size: 17px;
   }
   .about_contact {
     margin-top: 38px;
@@ -873,7 +873,7 @@ body::before {
 }
 @media only screen and (min-width: 0px) and (max-width: 318px) {
   .name_of_form {
-    font-size: 17px;
+    font-size: 16px;
   }
   .about_contact {
     margin-top: 38px;
@@ -885,7 +885,7 @@ body::before {
 }
 @media only screen and (min-width: 0px) and (max-width: 313px) {
   .name_of_form {
-    font-size: 16px;
+    font-size: 15px;
   }
   .about_contact {
     margin-top: 38px;
