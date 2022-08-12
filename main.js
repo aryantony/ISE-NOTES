@@ -17,18 +17,42 @@ select_submit_botton.addEventListener("click", (e) => {
     for (let i = 0; i < input_checkbox.length; i++) {
       if (input_checkbox[i].checked) {
         if (i == 0) {
+          if (localStorage.getItem("year") != null) {
+            window.open("first_yr.html");
+          } else {
+            window.open("login.html");
+          }
           localStorage.setItem("year", i);
-
-          window.open("login.html");
         } else if (i == 1) {
+          if (localStorage.getItem("year") != null) {
+            window.open(
+              "https://drive.google.com/drive/u/0/folders/1m_kSQPNGLNAWpCkw8hdGlZq_LVjfR3XW",
+              "_self"
+            );
+          } else {
+            window.open("login.html");
+          }
           localStorage.setItem("year", i);
-          window.open("login.html");
         } else if (i == 2) {
+          if (localStorage.getItem("year") != null) {
+            window.open(
+              "https://drive.google.com/drive/u/0/folders/11bgs4NNuVB0mHvmfKXiq7l-4QPrN0OtY",
+              "_self"
+            );
+          } else {
+            window.open("login.html");
+          }
           localStorage.setItem("year", i);
-          window.open("login.html");
         } else {
+          if (localStorage.getItem("year") != null) {
+            window.open(
+              "https://drive.google.com/drive/u/0/folders/1FGCO-8GUurZiXqFTeAlvIvu6gbifXX97",
+              "_self"
+            );
+          } else {
+            window.open("login.html");
+          }
           localStorage.setItem("year", i);
-          window.open("login.html");
         }
         input_checkbox[i].checked = false;
         document.querySelector("#b").style.background = "none";
