@@ -72,7 +72,7 @@ select_form.addEventListener("submit", (x) => {
   fun1(3);
   if (a == 1 && b == 1 && c == 1 && d == 1) {
     id("opacity_of_contact_page").style.opacity = "0";
-       id("opacity_of_contact_page").style.display = "none";
+    id("opacity_of_contact_page").style.display = "none";
     id("opacity_of_contact_page").style.height = "0";
     id("container").style.padding = "20px";
     document.body.classList.add("a");
@@ -97,21 +97,25 @@ select_form.addEventListener("submit", (x) => {
     setTimeout(function () {
       if (year == 0) {
         window.open("first_yr.html", "_self");
+        id("container").style.display = "none";
       } else if (year == 1) {
         window.open(
           "https://drive.google.com/drive/u/0/folders/1m_kSQPNGLNAWpCkw8hdGlZq_LVjfR3XW",
           "_self"
         );
+        id("container").style.display = "none";
       } else if (year == 2) {
         window.open(
           "https://drive.google.com/drive/u/0/folders/11bgs4NNuVB0mHvmfKXiq7l-4QPrN0OtY",
           "_self"
         );
+        id("container").style.display = "none";
       } else {
         window.open(
           "https://drive.google.com/drive/u/0/folders/1FGCO-8GUurZiXqFTeAlvIvu6gbifXX97",
           "_self"
         );
+        id("container").style.display = "none";
       }
     }, 6000);
     // setTimeout(function () {
