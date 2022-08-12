@@ -72,6 +72,7 @@ select_form.addEventListener("submit", (x) => {
   fun1(3);
   if (a == 1 && b == 1 && c == 1 && d == 1) {
     id("opacity_of_contact_page").style.opacity = "0";
+       id("opacity_of_contact_page").style.display = "none";
     id("opacity_of_contact_page").style.height = "0";
     id("container").style.padding = "20px";
     document.body.classList.add("a");
