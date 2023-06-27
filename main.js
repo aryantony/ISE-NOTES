@@ -152,5 +152,5 @@ document.querySelector("#click_mail").addEventListener("click", (e) => {
 });
 document.querySelector("#click_visit").addEventListener("click", (e) => {
   e.preventDefault();
-  window.open("https://roy-com.github.io/Portfolio");
+  window.open("https://aryantony.github.io/aryan.tony");
 });
